@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #3c5a5a;
+  text-align: center;
+  font-family: 'Poppins';
+}
+h1{
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 3.25rem;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins';
+
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  font-family: 'Poppins';
+
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(161, 151, 151, 0.3);
+  font-size: 8vmin;
+  color: red;
+  background-color: rgb(126, 126, 110);
+  font-family: 'Poppins';
+}
+.box:hover{
+    background-color: #a7a77c;
+    transition: 0.3s;
+}
+
+#resetbutton {
+  padding: 1rem;
+  font-size: 1.20rem;
+  background-color: #000000;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  font-family: 'Poppins';
+
+}
+#resetbutton:hover{
+    background-color: #353530;
+    transition: 0.3s;
+}
+#newGame {
+  padding: 1rem;
+  font-size: 1.20rem;
+  background-color: #191913;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  font-family: 'Poppins';
+
+}
+#newGame:hover{
+    background-color: #353530;
+    transition: 0.3s;
+}
+#msg {
+  color: whitesmoke;
+  font-size: 5vmin;
+  font-family: 'Poppins';
+
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  font-family: 'Poppins';
+
+}
+.hide {
+  display: none;
+}
