@@ -39,7 +39,7 @@ h1{
   border: none;
   box-shadow: 0 0 1rem rgba(161, 151, 151, 0.3);
   font-size: 8vmin;
-  color: red;
+  color: transparent;
   background-color: rgb(126, 126, 110);
   font-family: 'Poppins';
 }
@@ -94,4 +94,12 @@ h1{
 }
 .hide {
   display: none;
+}
+/* Add your desired styles for X and O here */
+.x {
+  color: blue; /* Change the color for X */
+}
+
+.o {
+  color: red; /* Change the color for O */
 }
